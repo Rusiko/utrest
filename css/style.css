@@ -37,21 +37,36 @@ a:hover {
     vertical-align: middle;
     z-index: 1;
 }
-.b {
+.header_line {
     position: absolute;
     top: 42px;
     width: 1920px;
     height: 61px;
-    z-index: 1;
-    font-size: 20px;
+    z-index: 2;
 }
-.b.scroll>a {
+.header_line_2 {
     position: absolute;
-    top: 182px;
+    top: 42px;
     width: 1920px;
     height: 61px;
-    z-index: 1;
-    font-size: 40px;
+    z-index: 2;
+    display: none;
+}
+.header_line_2.scroll {
+    position: absolute;
+    top: 42px;
+    width: 1920px;
+    height: 61px;
+    z-index: 2;
+    display: block;
+}
+.header_line.scroll > img {
+    position: absolute;
+    top: 42px;
+    width: 1920px;
+    height: 61px;
+    z-index: 2;
+    display: none;
 }
 .e-mail {
     position: absolute;
@@ -109,7 +124,29 @@ a:hover {
     position: absolute;
     top: 47px;
     left: 365px;
-    z-index: 1;
+    z-index: 3;
+    display: block;
+}
+.logo-2.scroll {
+    position: absolute;
+    top: 47px;
+    left: 365px;
+    z-index: 3;
+    display: none;
+}
+.logo-1 {
+    position: absolute;
+    top: 47px;
+    left: 365px;
+    z-index: 3;
+    display: none;
+}
+.logo-1.scroll {
+    position: absolute;
+    top: 47px;
+    left: 365px;
+    z-index: 3;
+    display: block;
 }
 p {
     position: absolute;
