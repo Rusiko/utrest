@@ -30,21 +30,88 @@ a:hover {
     position: fixed;
 }
 .header_line_1 {
+    position: absolute;
     width: 1920px;
     height: 43px;
     background-color: #262d44;
     vertical-align: middle;
     z-index: 1;
 }
-.header_line_2 {
+.b {
+    position: absolute;
+    top: 42px;
     width: 1920px;
     height: 61px;
-    background-color: #ffffff;
+    z-index: 1;
+    font-size: 20px;
+}
+.b.scroll>a {
+    position: absolute;
+    top: 182px;
+    width: 1920px;
+    height: 61px;
+    z-index: 1;
+    font-size: 40px;
+}
+.e-mail {
+    position: absolute;
+    left: 421px;
+    top: 12px;
+    width: 20px;
     z-index: 1;
 }
-.e_mail {
+.w-mail {
+    position: absolute;
+    top: 12px;
+    left: 453px;
+    width: 119px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 1;
+}
+.icon-phone {
+    position: absolute;
+    left: 619px;
+    top: 10px;
+    z-index: 1;
+}
+.phone {
     position: absolute;
     top: 11px;
-    width: 20px;
-    z-index: 2;
+    left: 651px;
+    height: 13px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    width: 120px;
+    z-index: 1;
+}
+.search {
+    position: absolute;
+    top: 7px;
+    left: 801px;
+    width: 306px;
+    background-color: #ffffff;
+    height: 28px;
+    z-index: 1;
+}
+.loupe {
+    position: absolute;
+    top: 10px;
+    left: 1080px;
+    z-index: 1;
+}
+.logo-2 {
+    position: absolute;
+    top: 47px;
+    left: 365px;
+    z-index: 1;
+}
+p {
+    position: absolute;
+    top: 1000px;
 }
