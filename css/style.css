@@ -146,9 +146,14 @@ a:hover {
 }
 .add_order {
     position: absolute;
-    top: 65px;
+    top: 63px;
     left: 696px;
     z-index: 3;
+    height: 13px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 500;
 }
 .border_white_2 {
     position: absolute;
@@ -158,23 +163,28 @@ a:hover {
 }
 .will_contractor {
     position: absolute;
-    top: 65px;
+    top: 63px;
     left: 1047px;
     z-index: 3;
+    height: 13px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 500;
 }
 .border_white.scroll {
     position: absolute;
     top: 54px;
     left: 672px;
     z-index: 3;
-    border: 1px solid rgba(52, 102, 136, 0.92);
+    border: 1px solid black;
 }
 .border_white_2.scroll {
     position: absolute;
     top: 54px;
     left: 1038px;
     z-index: 3;
-    border: 1px solid rgba(52, 102, 136, 0.92);
+    border: 1px solid black;
 }
 .add_order.scroll {
     color: #54576a;
@@ -182,6 +192,23 @@ a:hover {
 .will_contractor.scroll {
     color: #54576a;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .p {
     position: absolute;
     top: 2000px;
