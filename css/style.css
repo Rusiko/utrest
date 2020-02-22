@@ -195,35 +195,110 @@ a:hover {
 .login {
     position: absolute;
     left: 1426px;
-    top: 55px;
-    z-index: 3;
-    height: 35px;
-    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.25);
-    border: 1px solid #0062a5;
-    background-color: #098ad0;
+    top: 64px;
+    z-index: 4;
     width: 128px;
     font-family: "Fira Sans";
     font-size: 16px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.p {
+.login_button {
     position: absolute;
-    top: 2000px;
+    left: 1426px;
+    top: 55px;
+    z-index: 3;
+    height: 35px;
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.25);
+    background-color: #098ad0;
+    width: 128px;
+}
+.h1 {
+    position: absolute;
+    top: 193px;
+    left: 564px;
+    z-index: 4;
+}
+.p1 {
+    position: absolute;
+    top: 340px;
+    left: 664px;
+    z-index: 4;
+    height: 24px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-weight: 400;
+    width: 694px;
+}
+.ff {
+    position: absolute;
+    top: 425px;
+    left: 551px;
+    z-index: 4;
+    height: 66px;
+    border-radius: 3px;
+    border: 2px solid rgba(255, 255, 255, 0.92);
+    background-color: #ffffff;
+    width: 803px;
+    color: #54626b;
+    font-family: "Fira Sans";
+    font-size: 21px;
+    font-weight: 400;
+}
+.button_2 {
+    position: absolute;
+    top: 426px;
+    left: 1114px;
     z-index: 5;
+    cursor: pointer;
+}
+.add_order_2 {
+    position: absolute;
+    top: 447px;
+    left: 1139px;
+    z-index: 5;
+    cursor: pointer;
+    height: 21px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-weight: 500;
+    width: 192px;
+}
+.p2 {
+    position: absolute;
+    top: 511px;
+    left: 554px;
+    z-index: 4;
+    width: 750px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: italic;
+}
+.cup {
+    position: absolute;
+    top: 567px;
+    left: 908px;
+    z-index: 4;
+}
+.p3 {
+    position: absolute;
+    top: 675px;
+    left: 674px;
+    z-index: 4;
+    width: 672px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-weight: 400;
+}
+.double_down {
+    position: absolute;
+    top: 724px;
+    left: 935px;
+    z-index: 4;
 }
