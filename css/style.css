@@ -27,6 +27,7 @@ a:hover {
   transition: all.2s ease;
 }
 .header_1 {
+    z-index: 111111;
     position: fixed;
 }
 .header_line_1 {
@@ -49,11 +50,12 @@ a:hover {
 }
 .header_line_2.scroll {
     position: absolute;
-    top: 42px;
+    top: 41px;
     width: 1920px;
     height: 61px;
     z-index: 3;
     display: block;
+    border: 1px solid #9396a2;
 }
 .header_line.scroll > img {
     display: none;
@@ -130,8 +132,12 @@ a:hover {
     z-index: 4;
     display: block;
 }
+.common {
+    position: absolute;
+    left: -17px;
+}
 .backgroud {
-    position: absolute; 
+    position: absolute;
     z-index: 1;
 }
 .overlay {
@@ -154,6 +160,7 @@ a:hover {
     font-family: "Fira Sans";
     font-size: 18px;
     font-weight: 500;
+    width: 250px;
 }
 .border_white_2 {
     position: absolute;
@@ -171,6 +178,7 @@ a:hover {
     font-family: "Fira Sans";
     font-size: 18px;
     font-weight: 500;
+    width: 300px;
 }
 .border_white.scroll {
     position: absolute;
@@ -230,7 +238,7 @@ a:hover {
     font-weight: 400;
     width: 694px;
 }
-.ff {
+.enter_service {
     position: absolute;
     top: 425px;
     left: 551px;
@@ -244,6 +252,7 @@ a:hover {
     font-family: "Fira Sans";
     font-size: 21px;
     font-weight: 400;
+    
 }
 .button_2 {
     position: absolute;
@@ -302,3 +311,47 @@ a:hover {
     left: 935px;
     z-index: 4;
 }
+
+
+
+
+
+
+.tabs {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+    left: auto;
+    top: 1250px;
+    text-align: center;
+}
+.tabs > input {
+    width: 100%;
+    display: none;
+}
+.tabs > div {
+    padding: 12px;
+    display: none;
+}
+.tabs > label {
+    display: inline-block;
+    padding: 17px;
+    margin: 0 -5px 65px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.tabs > input:checked + label {
+    color: #000000;
+}
+.ff {
+    position: absolute;
+    left: 297px;
+    top: 173px;
+}
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2,
+#tab_3:checked ~ #txt_3,
+#tab_4:checked ~ #txt_4,
+#tab_5:checked ~ #txt_5,
+#tab_6:checked ~ #txt_6 {display: block;}
